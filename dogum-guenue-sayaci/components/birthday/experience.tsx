@@ -310,8 +310,7 @@ export function Experience() {
     })
   }
 
-  const showTree =
-    stage === "growing" || stage === "extinguish" || stage === "filling" || stage === "bigheart" || stage === "hunt"
+  const showTree = true
   const showHearts = stage === "filling" || stage === "bigheart" || stage === "hunt"
   const showBigHeart = stage === "bigheart"
   const showAtmosphere = stage !== "final"
